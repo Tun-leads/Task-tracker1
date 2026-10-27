@@ -1,0 +1,37 @@
+.page {
+  max-width: 520px;
+  margin: 60px auto;
+  padding: 28px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px #17202a12;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  font: inherit;
+}
+
+button {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+li {
+  margin-top: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  background: #f4f6f8;
+  color: #20252b;
+  font-family: system-ui, sans-serif;
+}
